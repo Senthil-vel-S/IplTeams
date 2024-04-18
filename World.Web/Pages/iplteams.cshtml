@@ -1,0 +1,24 @@
+﻿@page
+@model World.Web.Pages.iplteamsModel
+@{
+}
+<h2>Team List</h2>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>ShortName</td>
+            <td>Trophies</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.Teams)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.ShortName</td>
+                <td>@item.Trophies</td>
+            </tr>
+        }
+    </tbody>
+</table>

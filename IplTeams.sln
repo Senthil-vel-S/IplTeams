@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IplTeams.API", "IplTeams.API\IplTeams.API.csproj", "{8E5F9556-D2B1-4AE4-919B-3CE20F9F58B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "World.Web", "World.Web\World.Web.csproj", "{39D28EFD-2A5B-40A6-A653-A02383A160F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E5F9556-D2B1-4AE4-919B-3CE20F9F58B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5F9556-D2B1-4AE4-919B-3CE20F9F58B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5F9556-D2B1-4AE4-919B-3CE20F9F58B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5F9556-D2B1-4AE4-919B-3CE20F9F58B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D28EFD-2A5B-40A6-A653-A02383A160F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D28EFD-2A5B-40A6-A653-A02383A160F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D28EFD-2A5B-40A6-A653-A02383A160F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D28EFD-2A5B-40A6-A653-A02383A160F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {966F39D9-4147-43DA-B873-DE90381C4067}
+	EndGlobalSection
+EndGlobal
